@@ -1,0 +1,10 @@
+name: MOTDManager
+version: ${project.version}
+main: ch.skilldev.motdmanager.MOTDManager
+authors: [ SkillDevCH ]
+description: MOTDManager MC
+
+commands:
+  motd:
+    permissions:
+    motd.*:
