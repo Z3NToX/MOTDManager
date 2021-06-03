@@ -13,7 +13,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 
 public class MOTDManager extends JavaPlugin implements Listener {
-    public static String prefix = "§7[§eMOTD$7] ";
+    public static String prefix = "§7[§eMOTD§7] ";
 
 
     @Override
@@ -37,8 +37,8 @@ public class MOTDManager extends JavaPlugin implements Listener {
             if (args.length == 0) {
                 p.sendMessage("§3========== §7| §eMOTD Help §7| §3==========");
                 p.sendMessage("- §6You can set color codes with the &!");
-                p.sendMessage("$7/motd 1 <text> | §7 first row of the MOTD!");
-                p.sendMessage("$7/motd 2 <text> | §7 the second row of the MOTD!!");
+                p.sendMessage("§7/motd 1 <text> | §7 first row of the MOTD!");
+                p.sendMessage("§7/motd 2 <text> | §7 the second row of the MOTD!!");
             }
             if (args.length >= 2) {
                 if (args[0].equalsIgnoreCase("1")) {
